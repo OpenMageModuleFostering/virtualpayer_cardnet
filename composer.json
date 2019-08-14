@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/VirtualPayer_Cardnet",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL",
     "homepage": "",
-    "description": "Lloyds Cardnet Hosted Payment Page redirects the customer to the Cardnet Hosted Page to complete payment.",
+    "description": "Resolved issue with Callback URL hanging.",
     "authors": [
     {
         "name": "VirtualPayer",
