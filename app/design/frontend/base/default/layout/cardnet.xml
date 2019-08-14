@@ -1,0 +1,21 @@
+<layout version="0.1.0">
+	<cardnet_redirect_success>
+		<reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+		</reference>
+	
+		<reference name="content">
+			<block type="core/template" name="cardnet.redirect.success" template="cardnet/redirect/success.phtml" />
+		</reference>
+	</cardnet_redirect_success>
+	
+	<cardnet_redirect_failure>
+		<reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+		</reference>
+
+		<reference name="content">
+			<block type="core/template" name="cardnet.redirect.failure" template="cardnet/redirect/failure.phtml" />
+		</reference>				
+	</cardnet_redirect_failure>
+</layout>

@@ -1,0 +1,9 @@
+<?php
+
+	$block = Mage::app()->getLayout()->createBlock('cms/block')->setBlockId('cardnet_success');	
+
+	$html = Mage::helper('cardnet')->getCustomerMessage($block, Mage::getModel('sales/order')->loadByIncrementId(Mage::getSingleton('checkout/session')->getLastRealOrderId()), Mage::getModel('cardnet/cardnet')->getCollection()->addFieldToFilter('order_id', Mage::getSingleton('checkout/session')->getLastRealOrderId())->getFirstItem());
+
+	echo $html;
+	
+?>

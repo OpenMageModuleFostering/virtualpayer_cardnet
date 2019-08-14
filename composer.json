@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/VirtualPayer_Cardnet",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Lloyds Cardnet Hosted Payment Page redirects the customer to the Cardnet Hosted Page to complete payment.",
+    "authors": [
+    {
+        "name": "VirtualPayer",
+        "email": "support@virtualpayer.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

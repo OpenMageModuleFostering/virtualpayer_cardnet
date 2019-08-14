@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>VirtualPayer_Cardnet</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Lloyds Cardnet Hosted Payment Page redirects the customer to the Cardnet Hosted Page to complete payment.</summary>
+    <description>This module integrates Lloyds Cardnet Online Payments Gateway with your Magento store and its fully tested on the Internet Payment Gateway (IPG) environments for Cardnet.&#xD;
+The module supports card types enabled on your Cardnet Merchant Account.</description>
+    <notes>Fully tested in Cardnet sandbox.&#xD;
+</notes>
+    <authors><author><name>VirtualPayer</name><user>VirtualPayer</user><email>support@virtualpayer.com</email></author></authors>
+    <date>2016-03-13</date>
+    <time>10:59:01</time>
+    <contents><target name="magelocal"><dir name="VirtualPayer"><dir name="Cardnet"><dir name="Block"><dir name="Adminhtml"><dir name="Cardnet"><file name="Grid.php" hash="87a91bc91ce3296e6b54eeca50dc1820"/></dir><file name="Cardnet.php" hash="3ad5f2d6ad0469a4e6aa4daed2bda2b8"/></dir><dir name="Redirect"><file name="Error.php" hash="4a8f9273026340573ef4eae57b628ece"/><file name="Form.php" hash="3685f91a30f30863c0294021b694deac"/><file name="Redirect.php" hash="981b733cfad3c060faf1830bf38c8e1f"/><file name="Success.php" hash="2b945527ace7d540e75259c43037d802"/></dir></dir><dir name="Helper"><file name="Data.php" hash="3ce734726d72d9cee504cbeafdafa813"/></dir><dir name="Model"><file name="Cardnet.php" hash="5dc133c873ad6a01760f26040142d39a"/><dir name="Mysql4"><dir name="Cardnet"><file name="Collection.php" hash="9b61c677f6c67f9d93fb94e0598e930d"/></dir><file name="Cardnet.php" hash="d20f9c68a29e15c929270816801724a5"/></dir><file name="Redirect.php" hash="1aa57cf55b2eed9eff007a09a2aff0d8"/><file name="Setup.php" hash="31849416748d7cb74038b57f2463ab90"/><dir name="Source"><file name="Cctype.php" hash="f8a12f7ae85456983f825f6aab988a4e"/><file name="Currency.php" hash="c5331e7d9140d2133777edf0b789f847"/><file name="OrderStatus.php" hash="a88573ff48f78f9ccd8381540cb68be9"/><file name="PaymentAction.php" hash="8b508cf6ba5700312abdcbfa26f0bdfe"/><file name="PaymentMode.php" hash="1690a2ccf3740fe4bf9a0e47fd56c0ca"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="CardnetController.php" hash="c50f2f98cc2a79efadc30cc8907669c1"/></dir><file name="RedirectController.php" hash="0fca1177e8e20976a337528c66befe57"/><file name="ResponseController.php" hash="67dd6c4fd33ae1d648f250238e72b793"/></dir><dir name="etc"><file name="config.xml" hash="fc6c0d7de8332a7548b946b03731c5c3"/><file name="system.xml" hash="6d0ab7ba713209e960ba30cde0145848"/></dir><dir name="sql"><dir name="cardnet_setup"><file name="mysql4-install-0.1.0.php" hash="f41f20cd16b34866548a39ffbcc7f3c4"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="cardnet.xml" hash="8d5d667f93f00208c69880854c8e4cf1"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="cardnet.xml" hash="9142a3f5ebf31e2fa6df7bc22554c48a"/></dir><dir name="template"><dir name="cardnet"><dir name="redirect"><file name="failure.phtml" hash="9a4b060f22cbe7b3b4a2846d6866e3ba"/><file name="form.phtml" hash="e919e5a96f9c98b0ef71a4ff8d2c26cc"/><file name="success.phtml" hash="fc51be2b84ad9f75ebaef082504846da"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VirtualPayer_Cardnet.xml" hash="11de582fcaf1661b5067337e579f1427"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

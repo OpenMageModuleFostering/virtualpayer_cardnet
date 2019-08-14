@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cardnet_adminhtml_cardnet_index>
+        <reference name="content">
+            <block type="cardnet/adminhtml_cardnet" name="cardnet" />
+        </reference>
+    </cardnet_adminhtml_cardnet_index>
+</layout>
