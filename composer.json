@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/VirtualPayer_Cardnet",
+    "name": "openmage-module-fostering\/virtualpayer_cardnet",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Resolved issue with Callback URL hanging.",
     "authors": [
