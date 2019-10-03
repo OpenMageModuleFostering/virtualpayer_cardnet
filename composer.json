@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/VirtualPayer_Cardnet",
+    "name": "OpenMageModuleFostering\/VirtualPayer_Cardnet",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Resolved issue with Callback URL hanging.",
     "authors": [
-    {
-        "name": "VirtualPayer",
-        "email": "support@virtualpayer.com"
-    }
-],
+        {
+            "name": "VirtualPayer",
+            "email": "support@virtualpayer.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
